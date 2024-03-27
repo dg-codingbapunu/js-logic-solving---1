@@ -3,34 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>questins solving</title>
-    <style>
-      .btn-subscribe {
-        font-size: 15px;
-        height: 20px;
-        width: 80px;
-        background-color: red;
-        color: white;
-        border: none;
-        border-radius: 5px;
-      }
-      .size-double {
-        font-size: 30px;
-        height: 40px;
-        width: 160px;
-      }
-    </style>
+    <title>for each loop</title>
   </head>
   <body>
-    <button class="btn-subscribe" onclick=" setTimeout(doubleTheSize, 2000);">
-      Subscribe
-    </button>
     <script>
-      // 3rd queston
-      function doubleTheSize() {
-        let buttonElement = document.querySelector(".btn-subscribe");
-        buttonElement.classList.add("size-double");
-      }
+      // 5th questions
+      let arr = [1, 2, 3, 4, 5, 6, 7];
+      let sum = 0;
+      arr.forEach((num) => (sum += num));
+      console.log(sum);
     </script>
   </body>
 </html>
