@@ -4,17 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>questins solving</title>
+    <style>
+      .btn-subscribe {
+        font-size: 15px;
+        height: 20px;
+        width: 80px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+      }
+      .size-double {
+        font-size: 30px;
+        height: 40px;
+        width: 160px;
+      }
+    </style>
   </head>
   <body>
+    <button class="btn-subscribe" onclick=" setTimeout(doubleTheSize, 200);">
+      Subscribe
+    </button>
     <script>
-      // 2nd queston
-      let printhello = () => console.log("namaste");
-
-      let runtwice = (inputfunction) => {
-        inputfunction();
-        inputfunction();
-      };
-      runtwice(printhello);
+      // 3rd queston
+      function doubleTheSize() {
+        let buttonElement = document.querySelector(".btn-subscribe");
+        buttonElement.classList.add("size-double");
+      }
     </script>
   </body>
 </html>
