@@ -7,14 +7,14 @@
   </head>
   <body>
     <script>
-      // 25 th questions
+      // 26 th questions
       const person = { name: "bapunu" };
 
       function realAge(age) {
         return `${this.name} is ${age}`;
       }
       console.log(realAge.call(person, 22));
-      console.log(realAge.bind(person, 22));
+      console.log(realAge.bind(person, 22)());
     </script>
   </body>
 </html>
