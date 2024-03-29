@@ -7,10 +7,14 @@
   </head>
   <body>
     <script>
-      for (let i = 1; i <= 15; i++) {
-        if (i === 4) break;
-        console.warn(i);
-      }
+      // 23 th question
+      let foo = () => console.log("first");
+      let bar = () => setTimeout(() => console.log("second"));
+      let baz = () => console.log("third");
+
+      bar();
+      baz();
+      foo();
     </script>
   </body>
 </html>
