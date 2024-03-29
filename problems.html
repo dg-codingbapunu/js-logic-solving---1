@@ -7,14 +7,12 @@
   </head>
   <body>
     <script>
-      // 26 th questions
-      const person = { name: "bapunu" };
-
-      function realAge(age) {
-        return `${this.name} is ${age}`;
+      // 27 th questions
+      function sayHi() {
+        return (() => 0)();
       }
-      console.log(realAge.call(person, 22));
-      console.log(realAge.bind(person, 22)());
+
+      console.log(typeof sayHi());
     </script>
   </body>
 </html>
