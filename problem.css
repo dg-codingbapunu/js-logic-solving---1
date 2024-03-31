@@ -1,19 +1,21 @@
-/*this is my comment*/
-#heading {
-  color: blueviolet;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-#div_22 {
-  color: red;
+#bar {
+  background-color: aquamarine;
+  color: rgba(103, 18, 18, 0.8);
 }
-p {
-  color: bisque;
+main {
+  height: 500px;
+  background-color: blanchedalmond;
 }
-.special_heading {
-  color: darkgreen;
-}
-
-#first,
-#second {
-  color: dodgerblue;
+#product {
+  width: 200px;
+  height: 400px;
+  /* background-color: green;
+    background-image: url(jeans.webp);
+    background-repeat: no-repeat;
+    background-position: center;*/
+  background: green url("jeans.webp") no-repeat center;
 }
