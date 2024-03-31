@@ -1,0 +1,19 @@
+/*this is my comment*/
+#heading {
+  color: blueviolet;
+}
+
+#div_22 {
+  color: red;
+}
+p {
+  color: bisque;
+}
+.special_heading {
+  color: darkgreen;
+}
+
+#first,
+#second {
+  color: dodgerblue;
+}
