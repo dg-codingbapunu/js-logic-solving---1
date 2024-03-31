@@ -1,21 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Times New Roman", Times, serif;
 }
-#bar {
-  background-color: aquamarine;
-  color: rgba(103, 18, 18, 0.8);
+#nav h1 {
+  background-color: powderblue;
+  text-align: center;
+  text-transform: capitalize;
 }
-main {
-  height: 500px;
-  background-color: blanchedalmond;
+#inner {
+  font-size: 10px;
 }
-#product {
-  width: 200px;
-  height: 400px;
-  /* background-color: green;
-    background-image: url(jeans.webp);
-    background-repeat: no-repeat;
-    background-position: center;*/
-  background: green url("jeans.webp") no-repeat center;
+#outer {
+  font-size: 25px;
 }
