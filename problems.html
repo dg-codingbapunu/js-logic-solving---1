@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Practise Set 3</title>
-    <link rel="stylesheet" href="css/practise set 3.css" />
-    <style>
-      /*.class-button {
-      color: rgb(29, 180, 52);
-    }*/
-    </style>
+    <title>Practise Exercise</title>
   </head>
   <body>
-    <main>
-      <button
-        class="bag-button"
-        onclick="
-      alert('Item has been added to Bag');
-      "
-      >
-        Add to Bag
-      </button>
-      <button
-        class="wish-button"
-        onclick="
-      alert('Item has been added to the wishlist')
-    "
-      >
-        ❤️ Wishlist
-      </button>
-      <button class="class-button">Click</button>
-      <button id="id-button">Id button</button>
-      <button class="class-button">Class button</button>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-        facere.
-      </p>
-      -->
-    </main>
+    <p id="name-display"></p>
+
     <script>
-      //alert('Welcome Buddy');
+      const myName = "Prashant";
+      document.querySelector("#name-display").innerText = myName;
+      const GSTpercentage = 18;
+      let cartValue = Math.round(
+        ((15599 -
+          (10 / 100) * 15599 -
+          272 +
+          (2499 - (41 / 100) * 2499) -
+          29 +
+          25 +
+          20) *
+          (100 + GSTpercentage)) /
+          100
+      );
+      console.log(cartValue);
+
+      console.log(eval("2+3+5*7-9"));
     </script>
   </body>
 </html>
